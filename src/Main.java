@@ -51,5 +51,13 @@ public class Main {
                 "Вес 2-го боксёра - " + boxer2Weight + " кг, \n" +
                 "Вес обоих боксёров - " + (boxer1Weight + boxer2Weight) + " кг, \n" +
                 "Разница в весе боксёров - " + Math.abs(boxer1Weight - boxer2Weight) + " кг.");
+
+        System.out.println("\n" +
+                "Разница в весе боксёров, полученная вычитанием от бóльшего: " +
+                (boxer2Weight - boxer1Weight) + " кг.");
+
+        System.out.println("\n" +
+                "Разница в весе боксёров, полученная вычислением остатка от деления: " +
+                (boxer2Weight % boxer1Weight) + " кг.");
     }
 }
