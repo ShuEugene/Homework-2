@@ -41,5 +41,15 @@ public class Main {
         frog += 4;
         System.out.println("\n" + "После увеличения на 4 frog = " + frog);
 
+        // ДЗ-3 Урока 3
+        System.out.println("\n\n" +
+                "Здесь начинается ДЗ №3 Урока №3 (Переменные)");
+        var boxer1Weight = 78.2;
+        var boxer2Weight = 82.7;
+        System.out.println("\n" +
+                "Вес первого боксёра - " + boxer1Weight + " кг, \n" +
+                "Вес 2-го боксёра - " + boxer2Weight + " кг, \n" +
+                "Вес обоих боксёров - " + (boxer1Weight + boxer2Weight) + " кг, \n" +
+                "Разница в весе боксёров - " + Math.abs(boxer1Weight - boxer2Weight) + " кг.");
     }
 }
