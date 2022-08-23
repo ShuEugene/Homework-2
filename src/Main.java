@@ -13,6 +13,13 @@ public class Main {
                 "Значения переменных, после увеличения каждой на 4:" + "\n" +
                         "dog = " + dog + ", cat = " + cat + ", paper = " + paper + ".");
 
+        dog = (int) (dog - 3.5);
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println("\n" +
+                "Значения переменных, после уменьшения:" + "\n" +
+                "dog = " + dog + ", cat = " + cat + ", paper = " + paper + ".");
+
 
     }
 }
