@@ -20,6 +20,13 @@ public class Main {
                 "Значения переменных, после уменьшения:" + "\n" +
                 "dog = " + dog + ", cat = " + cat + ", paper = " + paper + ".");
 
+        var friend = 19;
+        System.out.println("\n" + "friend = " + friend);
 
+        friend *= 2;
+        System.out.println("\n" + "После умножения на 2 friend = " + friend);
+
+        friend /= 7;
+        System.out.println("\n" + "После деления на 7 friend = " + friend);
     }
 }
