@@ -28,5 +28,18 @@ public class Main {
 
         friend /= 7;
         System.out.println("\n" + "После деления на 7 friend = " + friend);
+
+        var frog = 3.5;
+        System.out.println("\n" + "frog = " + frog);
+
+        frog *= 10;
+        System.out.println("\n" + "После умножения на 10 frog = " + frog);
+
+        frog /= 3.5;
+        System.out.println("\n" + "После деления на 3,5 frog = " + frog);
+
+        frog += 4;
+        System.out.println("\n" + "После увеличения на 4 frog = " + frog);
+
     }
 }
